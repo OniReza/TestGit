@@ -1,0 +1,6 @@
+file:src/test/resources/Features/Z.Close/Close.feature:7
+file:src/test/resources/Features/E.Logout/Apprv_Logout.feature:6
+file:src/test/resources/Features/D.Registration_Approval/Approval.feature:7
+file:src/test/resources/Features/C.LogOut/LogOut.feature:7
+file:src/test/resources/Features/BMET_Registration/Bmet_Registration.feature:7
+file:src/test/resources/Features/F.BMET_Regis_Payment/BMET_Regis_Pay.feature:7

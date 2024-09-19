@@ -1,0 +1,1066 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 16, 2024 04:51:11 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@approvlogout</a><a class="dropdown-item" href="#">@bmetRpay</a><a class="dropdown-item" href="#">@bmetR</a><a class="dropdown-item" href="#">@approval</a><a class="dropdown-item" href="#">@logout</a><a class="dropdown-item" href="#">@close</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test For BMET Registration Functionality</p>
+            <p class="text-sm">
+              <span>4:51:11 PM</span> / <span>00:02:40:600</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test For BMET Registration Functionality</h5>
+<span class='badge badge-success'>07.16.2024 4:51:11 PM</span>
+<span class='badge badge-danger'>07.16.2024 4:53:52 PM</span>
+<span class='badge badge-default'>00:02:40:600</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Verify BMET Registration Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.LoginStep.a_valid_url()">
+                <span>Given user has logged into the portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_clicks_on_BMET_button()">
+                <span>When user clicks on BMET button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_click_new_BMET_registration()">
+                <span>And user click new BMET registration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_upload_passport()">
+                <span>And user upload passport</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_nputs_passport_number()">
+                <span>And user inputs passport number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_mobile_number()">
+                <span>And user inputs mobile number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_passport_information()">
+                <span>And user inputs passport information</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_full_name()">
+                <span>And user inputs full name</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_select_gender()">
+                <span>And user select gender</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_select_birthday_district()">
+                <span>And user select birthday district</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_click_next_button()">
+                <span>And user click next button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_personal_information()">
+                <span>And user inputs personal information</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_contact_info()">
+                <span>And user inputs contact info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_nominee_info()">
+                <span>And user inputs nominee info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_inputs_qualification_info()">
+                <span>And user inputs qualification info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_select_desire_country_with_preferred_job()">
+                <span>And user select desire country with preferred job</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_click_next_button_form_Qualification_page()">
+                <span>And user click next button form Qualification page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_should_see_pending_text()">
+                <span>Then user should see pending status</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Log Out Functionality</p>
+            <p class="text-sm">
+              <span>4:53:52 PM</span> / <span>00:01:39:875</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Log Out Functionality</h5>
+<span class='badge badge-success'>07.16.2024 4:53:52 PM</span>
+<span class='badge badge-danger'>07.16.2024 4:55:32 PM</span>
+<span class='badge badge-default'>00:01:39:875</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Verify Logout Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.LoginStep.a_valid_url()">
+                <span>Given user has logged into the portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.LogOutStep.user_clicks_on_logout_button()">
+                <span>When user clicks on logout button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>Verify Logout Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.ApprovalLoginStep.a_valid_url()">
+                <span>Given user has logged into the approval portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.LogOutStep.user_clicks_on_logout_button()">
+                <span>When user clicks on logout button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test BMET Registration Status Approve</p>
+            <p class="text-sm">
+              <span>4:54:30 PM</span> / <span>00:00:22:984</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test BMET Registration Status Approve</h5>
+<span class='badge badge-success'>07.16.2024 4:54:30 PM</span>
+<span class='badge badge-danger'>07.16.2024 4:54:53 PM</span>
+<span class='badge badge-default'>00:00:22:984</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="30"><span class="badge log pass-bg mr-2">Pass</span>Verify BMET Registration Approve Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.ApprovalLoginStep.a_valid_url()">
+                <span>Given user has logged into the approval portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_clicks_on_BMET_button()">
+                <span>When user click new registration status button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_input_passport_number()">
+                <span>And user input passport number</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_click_new_BMET_registration()">
+                <span>And user click search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_click_manual_varification_button()">
+                <span>And user click manual varification button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_select_verify_option()">
+                <span>And user select verify option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_click_confirm_button()">
+                <span>And user click confirm button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.ApprovalRegistrationStep.user_should_see_passport_verification_status_yes()">
+                <span>Then user should see passport verification status yes</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="46"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test For BMET Registration Payment Functionality</p>
+            <p class="text-sm">
+              <span>4:55:32 PM</span> / <span>00:00:48:713</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Test For BMET Registration Payment Functionality</h5>
+<span class='badge badge-success'>07.16.2024 4:55:32 PM</span>
+<span class='badge badge-danger'>07.16.2024 4:56:20 PM</span>
+<span class='badge badge-default'>00:00:48:713</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>Verify BMET Registration Payment</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.LoginStep.a_valid_url()">
+                <span>Given user has logged into the portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistrationStep.user_clicks_on_BMET_button()">
+                <span>When user clicks on BMET button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_input_passport_number()">
+                <span>And user input passport number on search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_select_checkbox_for_payment()">
+                <span>And user select checkbox for payment</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_click_payment_button_for_pay()">
+                <span>And user click make payment button for pay</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_select_a_vendor_for_payment()">
+                <span>And user select a vendor for payment</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_select_payment_policy_checkbox()">
+                <span>And user select payment policy checkbox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_click_pay_button()">
+                <span>And user click pay button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.BMETRegistration_PayStep.user_complete_the_payment_using_bkash()">
+                <span>And user complete the payment using bkash</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefinations.BMETRegistration_PayStep.user_should_see_marchent_payment_page()">
+                <span>Then user should see marchent payment page</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tab-language"]/div/div[1]/div[1]/div/div[2]/p"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Amis-MacBook-Pro.local', ip: 'fe80:0:0:0:85:d1d7:1f36:fb7c%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.5', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /var/folders/n7/2lfxpxgj089...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2851d972cab6c75a8496339d07df78a
+*** Element info: {Using=xpath, value=//*[@id="tab-language"]/div/div[1]/div[1]/div/div[2]/p}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at Pages.BMETRegistrationPage.MarchentPage(BMETRegistrationPage.java:592)
+	at StepDefinations.BMETRegistration_PayStep.user_should_see_marchent_payment_page(BMETRegistration_PayStep.java:103)
+	at ✽.user should see marchent payment page(file:///Users/amiprobashilimited/Ami_Probashi/src/test/resources/Features/F.BMET_Regis_Payment/BMET_Regis_Pay.feature:16)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>StepDefinations.LoginStep.takeScraenshotOnFailure(io.cucumber.java.Scenario)</span>
+      <div>Verify BMET Registration Payment
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>StepDefinations.ApprovalLoginStep.takeScraenshotOnFailure(io.cucumber.java.Scenario)</span>
+      <div>Verify BMET Registration Payment
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test Close Functionality</p>
+            <p class="text-sm">
+              <span>4:56:20 PM</span> / <span>00:00:33:046</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test Close Functionality</h5>
+<span class='badge badge-success'>07.16.2024 4:56:20 PM</span>
+<span class='badge badge-danger'>07.16.2024 4:56:53 PM</span>
+<span class='badge badge-default'>00:00:33:046</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>Close browser</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinations.LoginStep.a_valid_url()">
+                <span>Given user has logged into the portal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.LogOutStep.user_is_done_with_testing()">
+                <span>When the user is done with testing</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinations.LogOutStep.browser_should_be_closed()">
+                <span>Then the browser should be closed</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:56:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='46' id='57'>Then user should see marchent payment page</a>
+<div class="">
+<span class="badge badge-default">Test For BMET Registration Payment Functionality.Verify BMET Registration Payment.Then user should see marchent payment page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@approvlogout</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@approvlogout</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='41'>Verify Logout Functionality</a>
+<div class="">
+<span class="badge badge-default">Test Log Out Functionality.Verify Logout Functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@bmetRpay</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@bmetRpay</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:55:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='46' id='47'>Verify BMET Registration Payment</a>
+<div class="">
+<span class="badge badge-default">Test For BMET Registration Payment Functionality.Verify BMET Registration Payment</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@bmetR</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@bmetR</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:51:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Verify BMET Registration Functionality</a>
+<div class="">
+<span class="badge badge-default">Test For BMET Registration Functionality.Verify BMET Registration Functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@approval</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@approval</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='30'>Verify BMET Registration Approve Functionality</a>
+<div class="">
+<span class="badge badge-default">Test BMET Registration Status Approve.Verify BMET Registration Approve Functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@logout</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@logout</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:53:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='24'>Verify Logout Functionality</a>
+<div class="">
+<span class="badge badge-default">Test Log Out Functionality.Verify Logout Functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@close</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@close</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='61'>Close browser</a>
+<div class="">
+<span class="badge badge-default">Test Close Functionality.Close browser</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 16, 2024 04:51:11 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 16, 2024 04:56:53 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='20%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='16%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='97%'><b>44</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Test For BMET Registration Functionality":160.6,"Test Log Out Functionality":99.875,"Test BMET Registration Status Approve":22.984,"Test For BMET Registration Payment Functionality":48.713,"Test Close Functionality":33.046
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@approvlogout</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@bmetRpay</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@bmetR</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@approval</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@logout</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@close</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 44,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
